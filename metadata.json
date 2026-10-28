@@ -1,0 +1,9 @@
+{
+  "uuid": "color_adjust@local",
+  "name": "Color Adjust",
+  "description": "Регулювання насиченості та яскравості монітора окремо по каналах R, G, B",
+  "shell-version": ["50", "51"],
+  "url": "",
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.color_adjust"
+}

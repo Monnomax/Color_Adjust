@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="color_adjust">
+  <schema id="org.gnome.shell.extensions.color_adjust"
+          path="/org/gnome/shell/extensions/color_adjust/">
+
+    <key name="saturation-red" type="d">
+      <range min="0.0" max="2.0"/>
+      <default>1.0</default>
+      <summary>Насиченість — червоний канал</summary>
+    </key>
+    <key name="saturation-green" type="d">
+      <range min="0.0" max="2.0"/>
+      <default>1.0</default>
+      <summary>Насиченість — зелений канал</summary>
+    </key>
+    <key name="saturation-blue" type="d">
+      <range min="0.0" max="2.0"/>
+      <default>1.0</default>
+      <summary>Насиченість — блакитний канал</summary>
+    </key>
+
+    <key name="app-overrides" type="s">
+      <default>'{}'</default>
+      <summary>Насиченість каналів для окремих програм (JSON)</summary>
+      <description>JSON-об'єкт вигляду {"app.desktop": {"r": 1.0, "g": 1.0, "b": 1.0}}. Діє тільки для програми, вікно якої зараз у фокусі й не згорнуте.</description>
+    </key>
+
+  </schema>
+</schemalist>
